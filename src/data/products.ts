@@ -16,7 +16,7 @@ export const products: Product[] = [
   {
     id: 'danfoss-tlx-15kw',
     name: 'Danfoss TLX 15 KW Inverter, used',
-    price: 150.00,
+    price: 300.00,
     currency: '€',
     category: 'inverter',
     condition: 'used',
@@ -35,7 +35,7 @@ export const products: Product[] = [
   {
     id: 'trina-solar-container',
     name: '910–1040 × Trina Solar TSM-225-255PC05',
-    price: 8320.00,
+    price: 16640.00,
     currency: '€',
     category: 'panel',
     condition: 'used',
@@ -54,7 +54,7 @@ export const products: Product[] = [
   {
     id: 'kaco-50x-10kw',
     name: '500 kWp – 50 × New KACO blueplanet 10.0 NX3 M2',
-    price: 11500.00,
+    price: 14950.00,
     currency: '€',
     category: 'inverter',
     condition: 'new',
@@ -75,7 +75,7 @@ export const products: Product[] = [
   {
     id: 'kaco-100x-10kw',
     name: '1 MWp – 100 × New KACO blueplanet 10.0 NX3 M2',
-    price: 23000.00,
+    price: 29900.00,
     currency: '€',
     category: 'inverter',
     condition: 'new',
@@ -96,7 +96,7 @@ export const products: Product[] = [
   {
     id: 'diehl-ako-22kw',
     name: 'Diehl AKO Platinum 22.000 TL Inverter',
-    price: 180.00,
+    price: 360.00,
     currency: '€',
     category: 'inverter',
     condition: 'refurbished',
@@ -115,7 +115,7 @@ export const products: Product[] = [
   {
     id: 'kaco-3kw-nx3',
     name: '1 × New KACO blueplanet 3.0 NX3 M2',
-    price: 225.00,
+    price: 450.00,
     currency: '€',
     category: 'inverter',
     condition: 'new',
@@ -134,7 +134,7 @@ export const products: Product[] = [
   {
     id: 'kaco-5kw-nx3',
     name: '1 × New KACO blueplanet 5.0 NX3 M2',
-    price: 230.00,
+    price: 460.00,
     currency: '€',
     category: 'inverter',
     condition: 'new',
@@ -153,7 +153,7 @@ export const products: Product[] = [
   {
     id: 'kaco-8kw-nx3',
     name: '1 × New KACO blueplanet 8.0 NX3 M2',
-    price: 235.00,
+    price: 470.00,
     currency: '€',
     category: 'inverter',
     condition: 'new',
@@ -172,7 +172,7 @@ export const products: Product[] = [
   {
     id: 'kaco-10kw-nx3-single',
     name: '1 × New KACO blueplanet 10.0 NX3 M2',
-    price: 240.00,
+    price: 480.00,
     currency: '€',
     category: 'inverter',
     condition: 'new',
@@ -191,7 +191,7 @@ export const products: Product[] = [
   {
     id: 'kaco-5kw-nx1',
     name: '1 × New KACO blueplanet 5.0 NX1 M2',
-    price: 225.00,
+    price: 450.00,
     currency: '€',
     category: 'inverter',
     condition: 'new',
@@ -210,7 +210,7 @@ export const products: Product[] = [
   {
     id: 'kaco-4kw-nx1',
     name: '1 × New KACO blueplanet 4.0 NX1 M2',
-    price: 220.00,
+    price: 440.00,
     currency: '€',
     category: 'inverter',
     condition: 'new',
@@ -229,7 +229,7 @@ export const products: Product[] = [
   {
     id: 'kaco-37kw-nx1',
     name: '1 × New KACO blueplanet 3.7 NX1 M2',
-    price: 215.00,
+    price: 430.00,
     currency: '€',
     category: 'inverter',
     condition: 'new',
@@ -248,7 +248,7 @@ export const products: Product[] = [
   {
     id: 'kaco-3kw-nx1',
     name: '1 × New KACO blueplanet 3.0 NX1 M2',
-    price: 210.00,
+    price: 420.00,
     currency: '€',
     category: 'inverter',
     condition: 'new',
