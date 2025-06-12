@@ -139,7 +139,9 @@ export interface Translations {
     businessHoursTitle: string;
     businessHoursSubtitle: string;
     mondayFriday: string;
+    mondayFridayTime: string;
     saturday: string;
+    saturdayTime: string;
     sunday: string;
     closed: string;
     responseTime: string;
@@ -147,8 +149,11 @@ export interface Translations {
     serviceAreaTitle: string;
     serviceAreaSubtitle: string;
     primaryMarket: string;
+    primaryMarketValue: string;
     shipping: string;
+    shippingValue: string;
     specialization: string;
+    specializationValue: string;
     shippingDescription: string;
     howToPurchaseTitle: string;
     step1Title: string;
@@ -327,7 +332,9 @@ export const translations: Record<string, Translations> = {
       businessHoursTitle: 'Business Hours',
       businessHoursSubtitle: 'When we\'re available',
       mondayFriday: 'Monday - Friday',
+      mondayFridayTime: '9:00 AM - 6:00 PM',
       saturday: 'Saturday',
+      saturdayTime: '10:00 AM - 4:00 PM',
       sunday: 'Sunday',
       closed: 'Closed',
       responseTime: 'Response Time:',
@@ -335,8 +342,11 @@ export const translations: Record<string, Translations> = {
       serviceAreaTitle: 'Service Area',
       serviceAreaSubtitle: 'Where we operate',
       primaryMarket: 'Primary Market:',
+      primaryMarketValue: 'Croatia & Surrounding Regions',
       shipping: 'Shipping:',
+      shippingValue: 'European Union',
       specialization: 'Specialization:',
+      specializationValue: 'Commercial & Residential Solar Equipment',
       shippingDescription: 'We can arrange shipping throughout Europe. Contact us for specific delivery quotes and logistics.',
       howToPurchaseTitle: 'How to Purchase',
       step1Title: 'Browse Catalog',
@@ -511,7 +521,9 @@ export const translations: Record<string, Translations> = {
       businessHoursTitle: 'Geschäftszeiten',
       businessHoursSubtitle: 'Wann wir verfügbar sind',
       mondayFriday: 'Montag - Freitag',
+      mondayFridayTime: '9:00 - 18:00',
       saturday: 'Samstag',
+      saturdayTime: '10:00 - 16:00',
       sunday: 'Sonntag',
       closed: 'Geschlossen',
       responseTime: 'Antwortzeit:',
@@ -519,8 +531,11 @@ export const translations: Record<string, Translations> = {
       serviceAreaTitle: 'Servicebereich',
       serviceAreaSubtitle: 'Wo wir tätig sind',
       primaryMarket: 'Hauptmarkt:',
+      primaryMarketValue: 'Kroatien und umliegende Regionen',
       shipping: 'Versand:',
+      shippingValue: 'Europäische Union',
       specialization: 'Spezialisierung:',
+      specializationValue: 'Komercijalna i stambena solarna oprema',
       shippingDescription: 'Wir können den Versand in ganz Europa arrangieren. Kontaktieren Sie uns für spezifische Lieferangebote und Logistik.',
       howToPurchaseTitle: 'Wie kaufen',
       step1Title: 'Katalog durchsuchen',
@@ -537,11 +552,11 @@ export const translations: Record<string, Translations> = {
       newEquipmentWarranty: 'Neue Ausrüstung beinhaltet Herstellergarantie',
       pricesExcludeShipping: 'Alle Preise verstehen sich ohne Versand und Zollgebühren',
       paymentTermsDiscussed: 'Zahlungsbedingungen werden bei Auftragsbestätigung besprochen',
-      inquiryIncludeTitle: 'Was in Ihre Anfrage einzubeziehen ist',
-      specificProductQuantity: 'Spezifischer Produktname und benötigte Menge',
-      deliveryLocation: 'Ihr Lieferort für Versandangebote',
-      projectTimeline: 'Zeitplan für Ihr Projekt oder Installation',
-      technicalQuestions: 'Technische Fragen zur Kompatibilität'
+      inquiryIncludeTitle: 'Što uključiti u svoj upit',
+      specificProductQuantity: 'Specifičan naziv proizvoda i potrebna količina',
+      deliveryLocation: 'Vaša lokacija dostave za ponude dostave',
+      projectTimeline: 'Vremenski okvir za vaš projekt ili installation',
+      technicalQuestions: 'Bilo koja tehnička pitanja o kompatibilnosti'
     },
     footer: {
       description: 'Ihr vertrauenswürdiger Partner für hochwertige gebrauchte und neue Solarausrüstung. Wir bieten eine breite Palette von Wechselrichtern, Modulen und Zubehör zu wettbewerbsfähigen Preisen für Wohn- und Gewerbeinstallationen.',
@@ -695,7 +710,9 @@ export const translations: Record<string, Translations> = {
       businessHoursTitle: 'Radno vrijeme',
       businessHoursSubtitle: 'Kada smo dostupni',
       mondayFriday: 'Ponedjeljak - Petak',
+      mondayFridayTime: '9:00 - 18:00',
       saturday: 'Subota',
+      saturdayTime: '10:00 - 16:00',
       sunday: 'Nedjelja',
       closed: 'Zatvoreno',
       responseTime: 'Vrijeme odgovora:',
@@ -703,8 +720,11 @@ export const translations: Record<string, Translations> = {
       serviceAreaTitle: 'Područje usluge',
       serviceAreaSubtitle: 'Gdje djelujemo',
       primaryMarket: 'Primarno tržište:',
+      primaryMarketValue: 'Hrvatska i okolne regije',
       shipping: 'Dostava:',
+      shippingValue: 'Europska unija',
       specialization: 'Specijalizacija:',
+      specializationValue: 'Komercijalna i stambena solarna oprema',
       shippingDescription: 'Možemo organizirati dostavu diljem Europe. Kontaktirajte nas za specifične ponude dostave i logistiku.',
       howToPurchaseTitle: 'Kako kupiti',
       step1Title: 'Pregledajte katalog',

@@ -49,11 +49,11 @@ export const ContactPage: React.FC = () => {
             <div className="space-y-2">
               <div className="flex justify-between">
                 <span className="text-gray-600">{t.contact.mondayFriday}</span>
-                <span className="font-medium text-gray-900">9:00 AM - 6:00 PM</span>
+                <span className="font-medium text-gray-900">{t.contact.mondayFridayTime}</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-gray-600">{t.contact.saturday}</span>
-                <span className="font-medium text-gray-900">10:00 AM - 4:00 PM</span>
+                <span className="font-medium text-gray-900">{t.contact.saturdayTime}</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-gray-600">{t.contact.sunday}</span>
@@ -80,13 +80,13 @@ export const ContactPage: React.FC = () => {
             </div>
             <div className="space-y-3">
               <p className="text-gray-700">
-                <span className="font-medium">{t.contact.primaryMarket}</span> Croatia & Surrounding Regions
+                <span className="font-medium">{t.contact.primaryMarket}</span> {t.contact.primaryMarketValue}
               </p>
               <p className="text-gray-700">
-                <span className="font-medium">{t.contact.shipping}</span> European Union
+                <span className="font-medium">{t.contact.shipping}</span> {t.contact.shippingValue}
               </p>
               <p className="text-gray-700">
-                <span className="font-medium">{t.contact.specialization}</span> Commercial & Residential Solar Equipment
+                <span className="font-medium">{t.contact.specialization}</span> {t.contact.specializationValue}
               </p>
               <div className="pt-2 border-t border-gray-200 mt-3">
                 <p className="text-sm text-gray-600">
