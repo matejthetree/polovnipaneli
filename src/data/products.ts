@@ -35,7 +35,7 @@ export const products: Product[] = [
   {
     id: 'trina-solar-container',
     name: '910–1040 × Trina Solar TSM-225-255PC05',
-    price: 16640.00,
+    price: 15.00,
     currency: '€',
     category: 'panel',
     condition: 'used',
