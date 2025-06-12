@@ -8,16 +8,18 @@ const getLocaleFromBrowser = (): Language => {
   
   const browserLang = navigator.language.toLowerCase();
   
-  // Croatian for Croatia, Bosnia, Serbia, Montenegro
+  // Croatian for Croatia, Bosnia, Serbia, Montenegro, Slovenia
   if (browserLang.startsWith('hr') || 
       browserLang.startsWith('bs') || 
       browserLang.startsWith('sr') || 
-      browserLang.startsWith('me')) {
+      browserLang.startsWith('me') ||
+      browserLang.startsWith('sl')) {
     return 'hr';
   }
   
-  // German for Germany, Austria, Switzerland
-  if (browserLang.startsWith('de')) {
+  // German for Germany, Austria, Switzerland, Luxembourg
+  if (browserLang.startsWith('de') ||
+      browserLang.startsWith('lb')) {
     return 'de';
   }
   
